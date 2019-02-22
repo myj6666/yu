@@ -1,0 +1,474 @@
+/*清除浏览器默认样式*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 1019609 */
+    src: url('//at.alicdn.com/t/font_1019609_a297sidif4g.eot');
+    src: url('//at.alicdn.com/t/font_1019609_a297sidif4g.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1019609_a297sidif4g.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1019609_a297sidif4g.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1019609_a297sidif4g.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1019609_a297sidif4g.svg#iconfont') format('svg');
+}
+i{
+    font-family: 'iconfont';
+    font-style: normal;
+}
+/*素鑫首页导航开始*/
+.hua-header{
+    width: 100%;
+    height:79px;
+    background:#fff;
+    position: fixed;
+    top:0;
+    z-index: 999;
+}
+.container1{
+    width: 1170px;
+    height: 79px;
+    /* background: red;*/
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header-box{
+    width: 1170px;
+    height: 79px;
+    /*  background: pink;*/
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+.header-logo{
+    width: 150px;
+    height: 79px;
+    float: left;
+    /*background: #ff6700;*/
+}
+.logo{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin: auto 0;
+}
+.logo img{
+    width: 150px;
+    height: 50px;
+}
+.logo img:hover{
+    cursor: pointer;
+}
+.header-nav{
+    width: 602px;
+    height: 79px;
+    float: right;
+    overflow: visible!important;
+    /*   background: green;*/
+}
+.header-item{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 79px;
+    line-height: 79px;
+    float: left;
+    padding-right: 22px;
+}
+.header-item a{
+    color:#000;
+}
+.header-item a:hover{
+    cursor: pointer;
+    color:#16B0DE;
+}
+.one{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 79px;
+    line-height: 79px;
+    float: left;
+    padding-right: 22px;
+
+}
+.one a{
+    color:#16B0DE;
+}
+.one a:hover{
+    cursor: pointer;
+}
+.picture{
+    width: 1339px;
+    height: 759px;
+    position: relative;
+    /*background-image: url("../img/图1.jpg");*/
+}
+.dots{
+    width:100px;
+    height:10px;
+    position:absolute;
+    right:580px;
+    bottom:20px;
+}
+.dot{
+    width:10px;
+    height:10px;
+    background: rgba(255,255,255,0.3);
+    border-radius:50%;
+    margin: 0 5px;
+    float:left;
+}
+.hover{
+    background: rgba(0,0,0,0.3);
+}
+
+/*素鑫导航结束*/
+/*素馨花语开始*/
+.language{
+    width: 100%;
+    height: 90px;
+    margin-top: 78px;
+    background: #F1F1F1;
+    position: relative;
+}
+.language-content{
+    color: #F67A82;
+    font-size: 35px;
+    font-weight: 400;
+    padding: 20px 30px;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: none;
+}
+.met-news{
+    width: 100%;
+    height: 1280px;
+    padding: 30px 0px;
+    background: #f2f2f2;
+    border-top: 1px solid #f0f2f5;
+}
+.container{
+    width: 1170px;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.met-new-body{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.met-new-list{
+    width: 877.5px;
+    height: 1222px;
+    background: #ffffff;
+    padding: 30px;
+    float: left;
+}
+.met-page{
+    margin-bottom: 11px;
+}
+.met-page>ul>li{
+    list-style: none;
+}
+.list{
+    border-bottom: 1px solid #f0f2f5;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.media{
+    overflow: hidden;
+    zoom: 1;
+}
+.media-left{
+    padding-right: 20px;
+    display: table-cell;
+    vertical-align: top;
+    float: left;
+}
+a{
+    color: #2a333c;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    color: #62a8ea;
+}
+.media-left>a>img{
+    width: 160px;
+    height: 160px;
+}
+.media-body{
+    width: 637px;
+    height: 160px;
+    /*background: red;*/
+    overflow: hidden;
+    float: right;
+}
+.media-body-1{
+    width: 637px;
+    height: 176px;
+    /*background: red;*/
+    overflow: hidden;
+    float: right;
+}
+.media-body-2{
+    width: 637px;
+    height: 200px;
+    /*background: red;*/
+    overflow: hidden;
+    float: right;
+}
+.media-heading{
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.media-heading a:hover{
+    text-decoration: underline;
+}
+.met-news-list ul li h4 a{
+    color: #2a333c;
+}
+.desc{
+    color: #76838f;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.info{
+    color: #a3afb7;
+    font-size: 16px;
+    font-weight: 300;
+}
+.margin-left-10{
+    margin-left: 10px !important;
+}
+.margin-left-10 i{
+    color: #a3afb7;
+    font-weight: 300;
+}
+.hidden-xs{
+    width: 817.5px;
+    height: 21px;
+}
+.met-pager{
+    margin-top: 20px;
+    text-align: center;
+}
+.met-pager .PreSpan{
+    border: 1px solid #e4eaec;
+    padding: 9px 15px;
+    background: #fff;
+    color: #ccd5db;
+    cursor: default;
+    margin-left: 280px;
+    float: left;
+
+}
+.met-pager a{
+    border: 1px solid #e4eaec;
+    border-right: none;
+    background: #fff;
+    padding: 9px 15px;
+    text-align: center;
+    color: #76838f;
+    float: left;
+}
+.met-pager .Ahover{
+    background: #f86867;
+    border-color: #f86867;
+    color: #fff;
+    cursor: default;
+}
+.NextA{
+    border-right: 1px solid #e4eaec;
+}
+.col-md-3{
+    width: 292.5px;
+    height: 354px;
+    background: #fff;
+    float: right;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.met-new-bar{
+    background: #ffffff;
+    margin-left: 30px;
+    padding: 20px;
+}
+.form-group{
+    margin-bottom: 20px;
+    width: 222.5px;
+    height: 36px;
+}
+.input-search{
+    position: relative;
+    width: 222.5px;
+    height: 36px;
+    border: 1px solid #eee;
+    border-radius:200px;
+}
+.input-search-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 0 10px;
+    background: 0 0;
+    border: 0;
+
+}
+.input-search-btn i{
+    position: relative;
+    display: inline-block;
+    line-height: 1;
+    text-rendering: auto;
+    speak: none;
+    margin: 0 3px;
+}
+button{
+    -webkit-appearance: button;
+    cursor: pointer;
+    text-transform: none;
+    overflow: visible;
+    margin: 0;
+}
+.form-control{
+    border-radius: 200px;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 15px;
+    outline: none;
+    height: 20px;
+}
+.recommend{
+    margin: 20px 0px;
+    padding: 20px 0px;
+    border-top: 1px solid #f0f2f5;
+    border-bottom: 1px solid #f0f2f5;
+}
+.recommend h3{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0px;
+}
+.list-group{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-left: 0;
+    width: 222.5px;
+    height: 130px;
+}
+.list-group-bordered .list-group-item {
+    border-color: #e4eaec;
+}
+.list-group-item{
+    width: 222.5px;
+    height: 44px;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid transparent;
+}
+.list-group-item a:hover{
+    text-decoration: underline;
+}
+.list-group-item:first-child {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.column{
+    padding: 0px;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 11px;
+}
+.column a:hover{
+    text-decoration: underline;
+    color: #62a8ea;
+}
+
+/*素馨花语结束*/
+/*底部开始*/
+.footer-box{
+    width: 100%;
+    height: 182px;
+    padding-bottom: 20px;
+    background: #f5f5f5;
+    border-top: 1px solid #f0f2f5;
+    color: #aaaaaa;
+    text-align: center;
+}
+.footer-title{
+    width: 100%;
+    height: 20px;
+    background: #fff;
+    border-top: 1px solid #f0f2f5;
+}
+.footer-qq{
+    width: 100%;
+    height: 56px;
+    text-align: center;
+    padding-top:20px;
+}
+.footer-qq i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.wx{
+    color: green;
+}
+.qq{
+    color: #3cafff;
+}
+.footer-bottom{
+    margin: 0 auto;
+    width: 850px;
+    height: 25px;
+    text-align: center;
+
+}
+.footer-bottom a{
+    color: #62a8ea;
+    font-size: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    float: left;
+}
+.footer-bottom a:hover{
+    color: #89bceb;
+    text-decoration: underline;
+}
+.footer-bottom img{
+    font-size: 15px;
+    float: left;
+}
+.footer-box p{
+    color: #aaaaaa;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+/*底部结束*/
